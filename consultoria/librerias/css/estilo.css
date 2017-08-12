@@ -1,0 +1,102 @@
+
+/* -- HEADER -- */
+.navbar {
+	margin-bottom: 0;
+}
+
+.jumbotron {
+	background:#428BCA;
+	color:#fff;
+	padding:20px 0;
+}
+
+/* -- POST -- */
+.main {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.post {
+	padding-bottom:20px;
+	margin-bottom:20px;
+	border-bottom:1px solid #999;
+}
+
+.post .post-title a {
+	color:#333;
+}
+
+.post .thumb {
+	margin-right:10px;
+	width:40%;
+}
+
+.post .thumb img {
+	width:100%;
+}
+
+.post .contenedor-botones {
+	width: 100%;
+}
+
+/* -- Media Querie -- */
+@media screen and (max-width: 768px) {
+	.post .thumb {
+		width: 100%;
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+}
+
+
+html,
+body {
+    height: 100%;
+}
+ 
+#wrapper {
+    min-height: 90%;
+}
+ 
+
+#footer {
+  background-image: -webkit-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image:      -o-linear-gradient(top, #3c3c3c 0%, #222 100%);
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#3c3c3c), to(#222));
+  background-image:         linear-gradient(to bottom, #3c3c3c 0%, #222 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ff3c3c3c', endColorstr='#ff222222', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+    
+    position: relative; /* Altura total del footer en px con valor negativo */ 
+    margin-top:; /* Altura del footer en px. Se han restado los 5px del margen superior mas los 5px del margen inferior */ 
+    padding:5px 0px; 
+    clear: both; 
+}
+
+
+.burbuja {
+	width: 8px;
+	height: 15px;
+	text-align: center;
+    background: none repeat scroll 0 0 #E02424;
+    border-radius: 3px 3px 3px 3px;
+    color: #FFFFFF;
+    font: bold 0.9em Verdana;
+    padding: 2px 6px;
+    position: inherit;
+
+    -webkit-transition: all 0.5s ease-out;
+       -moz-transition: all 0.5s ease-out;
+        -ms-transition: all 0.5s ease-out;
+         -o-transition: all 0.5s ease-out;
+            transition: all 0.5s ease-out;
+}
+
+.burbuja.agrandar {
+	width: 15px;
+	height: 20px;
+	padding-top: 5px;
+}
+
+

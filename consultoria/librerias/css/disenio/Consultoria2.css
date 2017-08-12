@@ -1,0 +1,74 @@
+table {
+  border-collapse: collapse;
+  border-color: black;
+  border-spacing:  3px;
+}
+
+/*.t2 tr{
+
+}
+*/
+
+.t2 th{
+	
+	border-color: black;
+	background: #0072bb;
+	color: white;
+}
+
+.t2 td{
+border: solid 2px;	
+}
+
+
+.t3 tr{
+	border: solid 1px;
+}
+
+.t3 th{
+	border: solid 1px;
+	border-color: black;
+	background: #0072bb;
+	color: white;
+}
+
+.t3 td{
+	border: solid 1px;
+}
+
+.t4 tr{
+	border: solid 2px;
+}
+
+.t4 th{
+	border: solid 2px;
+	border-color: black;
+	background: #0072bb;
+	color: white;
+}
+
+.t4 td{
+	border: solid 2px;
+}
+
+.regConsult
+ {
+  height: 48px;
+  
+  color: #FFF;
+  width: 25%;
+  font-weight: 700;
+  font-size: 12px;
+  background: #4CAF50;
+  margin-top: 7px;
+}
+
+
+.t2 .criterios
+{
+	
+	border-color: black;
+	background: #EEEE93;
+	color: black;
+	font-weight:bold;
+}

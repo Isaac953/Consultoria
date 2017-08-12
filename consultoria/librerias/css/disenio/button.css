@@ -1,0 +1,27 @@
+.co {
+ border: none;
+ background: #239B56;
+ color: #f2f2f2;
+ padding: 10px;
+ font-size: 18px;
+ border-radius: 5px;
+ position: relative;
+ box-sizing: border-box;
+ transition: all 500ms ease;
+}
+
+.co2 {
+    box-shadow: rgb(86, 245, 86) 0px 1px 3px 0px inset;
+    background: linear-gradient(rgb(0, 191, 51) 5%, rgb(66, 166, 0) 100%) rgb(0, 191, 51);
+    border-radius: 5px;
+    border: 1px solid rgb(52, 117, 19);
+    display: inline-block;
+    cursor: pointer;
+    color: rgb(255, 255, 255);
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: rgb(21, 70, 130) 0px -1px 0px;
+}

@@ -1,0 +1,62 @@
+/* 
+Generic Styling, for Desktops/Laptops 
+*/
+.t1 { 
+  width: 70%;
+  border-collapse: collapse;
+  position: center;  
+}
+/* Zebra striping */
+tr:nth-of-type(odd) { 
+  background: #eee; 
+}
+th { 
+  background: #0072bb; 
+  color: white; 
+  font-weight: bold; 
+}
+td, th { 
+  padding: 6px; 
+  border: 1px solid #ccc; 
+  text-align: left; 
+}
+
+.t2 { 
+  width: 40%;
+  border-collapse: collapse;
+  position: center;  
+}
+
+.t3 { 
+  width: 70%;
+  border-collapse: collapse;
+  position: center;  
+}
+
+.t3 th {
+	width: 5%;
+}
+
+.t4 { 
+  width: 70%;
+  border-collapse: collapse;
+  position: center;  
+}
+
+.t5 { 
+  width: 70%;
+  border-collapse: collapse;
+  position: center;  
+}
+
+.t6 { 
+  width: 40%;
+  border-collapse: collapse;
+  position: center;  
+}
+
+.t7 { 
+  width: 20%;
+  border-collapse: collapse;
+  position: center;  
+}

@@ -1,0 +1,53 @@
+table {
+  border-collapse: collapse;
+  border-color: black;
+  border-spacing:  3px;
+}
+
+.t2 tr{
+	border: solid;
+}
+
+.t2 th{
+	border: solid;
+	border-color: black;
+	background: #1E90FF;
+	color: white;
+}
+
+.t2 td{
+	border: solid;
+}
+
+.t3 tr{
+	border: solid;
+}
+
+.t3 th{
+	border: solid;
+	border-color: black;
+	background: #1E90FF;
+	color: white;
+}
+
+.t3 td{
+	border: solid;
+}
+
+.t4 tr{
+	border: solid;
+}
+
+.t4 th{
+	border: solid;
+	border-color: black;
+	background: #1E90FF;
+	color: white;
+}
+
+.t4 td{
+	border: solid;
+}
+
+
+
